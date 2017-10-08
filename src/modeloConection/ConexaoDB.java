@@ -24,7 +24,7 @@ public class ConexaoDB {
     private final String driver = "org.postgresql.Driver"; // identifica o serviço 
     private final String caminho = "jdbc:postgresql://localhost:5432/projetoClinica";// qual o caminho locado
     private String usuario = "postgres"; // usuario do db
-    private String senha = "7826748"; // senha do Db
+    private String senha = "12345"; // senha do Db
     public Connection con; // responsavel pela conexao 
     
     public void conexao(){
